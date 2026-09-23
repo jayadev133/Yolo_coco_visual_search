@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Streamlit and local runtime state
+.streamlit/secrets.toml
+.yolo_config/
+*.log
+
+# Model weights and exported inference artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+*.mlpackage
+
+# Local datasets, generated metadata, and inference outputs
+coco-val-2017-500/
+data/raw/
+data/processed/
+outputs/
+runs/
+search_results.json
+
+# Course/local reference material
+instruction.txt
+*.pdf
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

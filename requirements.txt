@@ -1,0 +1,9 @@
+streamlit>=1.37,<2
+ultralytics>=8.3,<9
+opencv-python>=4.10,<5
+pyyaml>=6,<7
+pillow>=10,<12
+pandas>=2.2,<3
+numpy>=1.26,<3
+
+
